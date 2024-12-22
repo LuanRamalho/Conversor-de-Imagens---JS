@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Imagens Simplificado</h1>
+
+        <div class="input-group">
+            <label for="inputFormat">Formato de Entrada:</label>
+            <select id="inputFormat">
+                <option value="gif">GIF</option>
+                <option value="tiff">TIFF</option>
+                <option value="webp">WEBP</option>
+                <option value="bmp">BMP</option>
+                <option value="jpg">JPG</option>
+                <option value="png">PNG</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="outputFormat">Formato de Saída:</label>
+            <select id="outputFormat">
+                <option value="gif">GIF</option>
+                <option value="tiff">TIFF</option>
+                <option value="webp">WEBP</option>
+                <option value="bmp">BMP</option>
+                <option value="jpg">JPG</option>
+                <option value="png">PNG</option>
+            </select>
+        </div>
+
+        <input type="file" id="imageInput" accept="image/*">
+
+        <button id="convertButton">Converter</button>
+
+        <div id="output">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

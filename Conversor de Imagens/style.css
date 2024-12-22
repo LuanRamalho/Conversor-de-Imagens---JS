@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+h1 {
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    text-align: left; /* Alinha os rótulos à esquerda */
+    display: flex;
+    flex-direction: column; /* Coloca rótulo em cima do select */
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select, input[type="file"], button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%; /* Largura total para melhor aparência */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
